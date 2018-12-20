@@ -34,7 +34,6 @@ class Aside extends Admin
             ]
         ];
         $imgModel = new Image();
-//        $res = $imgModel->createSharePng($gData,'uploads/images/20181128/f22.jpg');
         $res = $imgModel->createSharePng($gData,'uploads/images/exam/code.png','uploads/images/exam/exam.png');
         echo $res;
     }
